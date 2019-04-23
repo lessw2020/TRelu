@@ -1,7 +1,7 @@
 # TRelu
 An improved activation function for deep learning - Threshold Relu, or TRelu
 
-Threshold Relu (TRelu) came about as a result of a week long comparison testing of a variety of activation functions (Relu, General Relu, FTSwish, LiSHT and enhancements of these).  As a result of question from those results, TRelu was coded up and born and immediately topped the charts in terms of the previous weeklong competition.  Testing on more and larger datasets is now underway.
+Threshold Relu (TRelu) came about as a result of a week long comparison testing of a variety of activation functions (Relu, General Relu, FTSwish, LiSHT and enhancements of these).  As a result of question from those results on the FastAI forums wondering about a merge of Relu and FTSWish (the previous winner) would look like (credit to Yonatan365), TRelu was coded up and born and immediately topped the charts in terms of the previous weeklong competition.  Testing on more and larger datasets is now underway.
 
 <img src='images/final-results-imagenette-res34-Trelu.jpg' width=80% height=80% />
 
