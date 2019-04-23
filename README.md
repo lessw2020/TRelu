@@ -5,7 +5,9 @@ Threshold Relu (TRelu) came about as a result of a week long comparison testing 
 
 # What is TRelu?    
 TRelu is Relu but with two important changes:
+
 1 - All negative values are capped to the threshold (default is - .25).  This allows the expression of negatives during activation, but it is capped.  This appears to be the main driver of the improved accuracy.
+
 2 - Mean shifting - Based on the mean shift concept introduced by FastAI/Jeremy Howard.  Basically the mean is tested on random tensor initialized to Kaiming Init for Relu.  A shift is then added so that the actual mean of this Kaiming Init is driven to zero.  The concept is that by ensuring a starting mean of zero, training can proceed more readily.
 For TRelu, that default value is - .03
 
